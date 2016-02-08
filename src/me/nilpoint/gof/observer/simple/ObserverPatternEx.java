@@ -1,4 +1,4 @@
-package me.nilpoint.gof.observer;
+package me.nilpoint.gof.observer.simple;
 
 /**
  *

@@ -1,4 +1,4 @@
-package me.nilpoint.gof.observer;
+package me.nilpoint.gof.observer.simple;
 
 import java.util.ArrayList;
 import java.util.List;
