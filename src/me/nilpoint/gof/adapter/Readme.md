@@ -19,3 +19,17 @@ In real-life development, in many cases, we cannot communicate between two inter
 contain some kind of constraint within themselves. To deal with this kind of incompatibility between those
 interfaces, we may need to introduce adapters.
 
+# Note
+
+GoF tells us about two major kinds of adapters:
+
+1. Class adapters. They generally use multiple inheritance to adapt one interface to
+another. (But we must remember, in Java, multiple inheritance through classes is not
+supported. We need interfaces to implement the concept of multiple inheritance.)
+
+2. Object adapters. They depend on the object compositions.
+
+To what extent does an adapter need to take care when it adapts an adapter?
+
+It depends on that particular case. If our target interface is very similar, then adapters do not have much
+work. If there is not much similarity, then adapters must do some extra work to match those functionalities.
